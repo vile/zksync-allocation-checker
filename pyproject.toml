@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "zksync-allocation-check"
+version = "0.1.0"
+description = "Script to check $ZK token allocations across many wallets at once."
+authors = ["vile <111662603+vile@users.noreply.github.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+httpx = "^0.27.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
